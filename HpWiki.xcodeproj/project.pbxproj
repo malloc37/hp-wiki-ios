@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D8C5BA5282569FA0035546D /* HpWikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BA4282569FA0035546D /* HpWikiApp.swift */; };
+		6D8C5BA7282569FA0035546D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BA6282569FA0035546D /* ContentView.swift */; };
+		6D8C5BA9282569FA0035546D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C5BA8282569FA0035546D /* Assets.xcassets */; };
+		6D8C5BAC282569FA0035546D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C5BAB282569FA0035546D /* Preview Assets.xcassets */; };
+		6D8C5BB6282569FA0035546D /* HpWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BB5282569FA0035546D /* HpWikiTests.swift */; };
+		6D8C5BC0282569FA0035546D /* HpWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BBF282569FA0035546D /* HpWikiUITests.swift */; };
+		6D8C5BC2282569FA0035546D /* HpWikiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BC1282569FA0035546D /* HpWikiUITestsLaunchTests.swift */; };
+		6D8C5BCF28256ABA0035546D /* charModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BCE28256ABA0035546D /* charModel.swift */; };
+		6D8C5BD128256DFF0035546D /* charViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BD028256DFF0035546D /* charViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D8C5BB2282569FA0035546D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8C5B99282569FA0035546D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8C5BA0282569FA0035546D;
+			remoteInfo = HpWiki;
+		};
+		6D8C5BBC282569FA0035546D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8C5B99282569FA0035546D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8C5BA0282569FA0035546D;
+			remoteInfo = HpWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D8C5BA1282569FA0035546D /* HpWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HpWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8C5BA4282569FA0035546D /* HpWikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpWikiApp.swift; sourceTree = "<group>"; };
+		6D8C5BA6282569FA0035546D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D8C5BA8282569FA0035546D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D8C5BAB282569FA0035546D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D8C5BB1282569FA0035546D /* HpWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HpWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8C5BB5282569FA0035546D /* HpWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpWikiTests.swift; sourceTree = "<group>"; };
+		6D8C5BBB282569FA0035546D /* HpWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HpWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8C5BBF282569FA0035546D /* HpWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpWikiUITests.swift; sourceTree = "<group>"; };
+		6D8C5BC1282569FA0035546D /* HpWikiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HpWikiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D8C5BCE28256ABA0035546D /* charModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = charModel.swift; sourceTree = "<group>"; };
+		6D8C5BD028256DFF0035546D /* charViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = charViewModel.swift; sourceTree = "<group>"; };
+		6D8C5BD228257B440035546D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D8C5B9E282569FA0035546D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8C5BAE282569FA0035546D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8C5BB8282569FA0035546D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D8C5B98282569FA0035546D = {
+			isa = PBXGroup;
+			children = (
+				6D8C5BA3282569FA0035546D /* HpWiki */,
+				6D8C5BB4282569FA0035546D /* HpWikiTests */,
+				6D8C5BBE282569FA0035546D /* HpWikiUITests */,
+				6D8C5BA2282569FA0035546D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D8C5BA2282569FA0035546D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C5BA1282569FA0035546D /* HpWiki.app */,
+				6D8C5BB1282569FA0035546D /* HpWikiTests.xctest */,
+				6D8C5BBB282569FA0035546D /* HpWikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D8C5BA3282569FA0035546D /* HpWiki */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C5BD228257B440035546D /* Info.plist */,
+				6D8C5BA4282569FA0035546D /* HpWikiApp.swift */,
+				6D8C5BA6282569FA0035546D /* ContentView.swift */,
+				6D8C5BA8282569FA0035546D /* Assets.xcassets */,
+				6D8C5BAA282569FA0035546D /* Preview Content */,
+				6D8C5BCE28256ABA0035546D /* charModel.swift */,
+				6D8C5BD028256DFF0035546D /* charViewModel.swift */,
+			);
+			path = HpWiki;
+			sourceTree = "<group>";
+		};
+		6D8C5BAA282569FA0035546D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C5BAB282569FA0035546D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D8C5BB4282569FA0035546D /* HpWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C5BB5282569FA0035546D /* HpWikiTests.swift */,
+			);
+			path = HpWikiTests;
+			sourceTree = "<group>";
+		};
+		6D8C5BBE282569FA0035546D /* HpWikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C5BBF282569FA0035546D /* HpWikiUITests.swift */,
+				6D8C5BC1282569FA0035546D /* HpWikiUITestsLaunchTests.swift */,
+			);
+			path = HpWikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D8C5BA0282569FA0035546D /* HpWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8C5BC5282569FA0035546D /* Build configuration list for PBXNativeTarget "HpWiki" */;
+			buildPhases = (
+				6D8C5B9D282569FA0035546D /* Sources */,
+				6D8C5B9E282569FA0035546D /* Frameworks */,
+				6D8C5B9F282569FA0035546D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HpWiki;
+			productName = HpWiki;
+			productReference = 6D8C5BA1282569FA0035546D /* HpWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D8C5BB0282569FA0035546D /* HpWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8C5BC8282569FA0035546D /* Build configuration list for PBXNativeTarget "HpWikiTests" */;
+			buildPhases = (
+				6D8C5BAD282569FA0035546D /* Sources */,
+				6D8C5BAE282569FA0035546D /* Frameworks */,
+				6D8C5BAF282569FA0035546D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D8C5BB3282569FA0035546D /* PBXTargetDependency */,
+			);
+			name = HpWikiTests;
+			productName = HpWikiTests;
+			productReference = 6D8C5BB1282569FA0035546D /* HpWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D8C5BBA282569FA0035546D /* HpWikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8C5BCB282569FA0035546D /* Build configuration list for PBXNativeTarget "HpWikiUITests" */;
+			buildPhases = (
+				6D8C5BB7282569FA0035546D /* Sources */,
+				6D8C5BB8282569FA0035546D /* Frameworks */,
+				6D8C5BB9282569FA0035546D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D8C5BBD282569FA0035546D /* PBXTargetDependency */,
+			);
+			name = HpWikiUITests;
+			productName = HpWikiUITests;
+			productReference = 6D8C5BBB282569FA0035546D /* HpWikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D8C5B99282569FA0035546D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6D8C5BA0282569FA0035546D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					6D8C5BB0282569FA0035546D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 6D8C5BA0282569FA0035546D;
+					};
+					6D8C5BBA282569FA0035546D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 6D8C5BA0282569FA0035546D;
+					};
+				};
+			};
+			buildConfigurationList = 6D8C5B9C282569FA0035546D /* Build configuration list for PBXProject "HpWiki" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D8C5B98282569FA0035546D;
+			productRefGroup = 6D8C5BA2282569FA0035546D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8C5BA0282569FA0035546D /* HpWiki */,
+				6D8C5BB0282569FA0035546D /* HpWikiTests */,
+				6D8C5BBA282569FA0035546D /* HpWikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D8C5B9F282569FA0035546D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8C5BAC282569FA0035546D /* Preview Assets.xcassets in Resources */,
+				6D8C5BA9282569FA0035546D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8C5BAF282569FA0035546D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8C5BB9282569FA0035546D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D8C5B9D282569FA0035546D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8C5BD128256DFF0035546D /* charViewModel.swift in Sources */,
+				6D8C5BCF28256ABA0035546D /* charModel.swift in Sources */,
+				6D8C5BA7282569FA0035546D /* ContentView.swift in Sources */,
+				6D8C5BA5282569FA0035546D /* HpWikiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8C5BAD282569FA0035546D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8C5BB6282569FA0035546D /* HpWikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8C5BB7282569FA0035546D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8C5BC2282569FA0035546D /* HpWikiUITestsLaunchTests.swift in Sources */,
+				6D8C5BC0282569FA0035546D /* HpWikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D8C5BB3282569FA0035546D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8C5BA0282569FA0035546D /* HpWiki */;
+			targetProxy = 6D8C5BB2282569FA0035546D /* PBXContainerItemProxy */;
+		};
+		6D8C5BBD282569FA0035546D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8C5BA0282569FA0035546D /* HpWiki */;
+			targetProxy = 6D8C5BBC282569FA0035546D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D8C5BC3282569FA0035546D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D8C5BC4282569FA0035546D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D8C5BC6282569FA0035546D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HpWiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 8U2WTZ3GJU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HpWiki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zhaw.moba2.HpWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D8C5BC7282569FA0035546D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HpWiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 8U2WTZ3GJU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HpWiki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zhaw.moba2.HpWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D8C5BC9282569FA0035546D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8U2WTZ3GJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zhaw.moba2.HpWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HpWiki.app/HpWiki";
+			};
+			name = Debug;
+		};
+		6D8C5BCA282569FA0035546D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8U2WTZ3GJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zhaw.moba2.HpWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HpWiki.app/HpWiki";
+			};
+			name = Release;
+		};
+		6D8C5BCC282569FA0035546D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8U2WTZ3GJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zhaw.moba2.HpWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HpWiki;
+			};
+			name = Debug;
+		};
+		6D8C5BCD282569FA0035546D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8U2WTZ3GJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.zhaw.moba2.HpWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HpWiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D8C5B9C282569FA0035546D /* Build configuration list for PBXProject "HpWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8C5BC3282569FA0035546D /* Debug */,
+				6D8C5BC4282569FA0035546D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8C5BC5282569FA0035546D /* Build configuration list for PBXNativeTarget "HpWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8C5BC6282569FA0035546D /* Debug */,
+				6D8C5BC7282569FA0035546D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8C5BC8282569FA0035546D /* Build configuration list for PBXNativeTarget "HpWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8C5BC9282569FA0035546D /* Debug */,
+				6D8C5BCA282569FA0035546D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8C5BCB282569FA0035546D /* Build configuration list for PBXNativeTarget "HpWikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8C5BCC282569FA0035546D /* Debug */,
+				6D8C5BCD282569FA0035546D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D8C5B99282569FA0035546D /* Project object */;
+}
