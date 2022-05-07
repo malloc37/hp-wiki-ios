@@ -34,6 +34,6 @@ struct Character: Decodable, Identifiable {
 struct Wand: Decodable {
     let wood: String
     let core: String
-    let feather: String
     let length: Int
 }
+

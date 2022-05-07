@@ -1,8 +1,8 @@
 //
-//  charViewModel.swift
+//  ApiCall.swift
 //  HpWiki
 //
-//  Created by Besmir Kadrii on 06.05.22.
+//  Created by Besmir Kadrii on 07.05.22.
 //
 
 import Foundation
