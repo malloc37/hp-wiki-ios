@@ -14,7 +14,8 @@ struct CharacterDetailView: View {
       VStack {
       CharImage(imageURL: char.image)
         .padding([.leading, .trailing])
-          
+        .background(Image(char.house.lowercased())
+            .resizable())
         Text(char.name)
             .font(.largeTitle)
         Divider()
@@ -37,12 +38,11 @@ struct CharacterDetailView: View {
                     Text(char.dateOfBirth)
                     Text(char.alive == true ? "Yes" : "No")
                     Text(char.ancestry)
-                    Text(char.patronus)
+                    Text(char.patronus.isEmpty ? "Unknown" : char.patronus)
                 }
             }
         }
-        
-        
+
     }
   }
 }
