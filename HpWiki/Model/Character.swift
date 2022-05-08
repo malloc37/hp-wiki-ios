@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Character: Decodable, Identifiable {
+struct Character: Decodable, Identifiable, Hashable {
     var id: String {name}
     let actor: String
     let alive: Bool

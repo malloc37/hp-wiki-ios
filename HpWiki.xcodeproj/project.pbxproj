@@ -16,6 +16,7 @@
 		6D8C5BC2282569FA0035546D /* HpWikiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C5BC1282569FA0035546D /* HpWikiUITestsLaunchTests.swift */; };
 		6D9D04452826CCE1007462A1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D04442826CCE1007462A1 /* Character.swift */; };
 		6D9D044E2826D302007462A1 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D044D2826D302007462A1 /* CharactersModel.swift */; };
+		6D9D04522827DE8D007462A1 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D04512827DE8D007462A1 /* CharacterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D8C5BD228257B440035546D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6D9D04442826CCE1007462A1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		6D9D044D2826D302007462A1 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		6D9D04512827DE8D007462A1 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				6D8C5BA6282569FA0035546D /* ContentView.swift */,
+				6D9D04512827DE8D007462A1 /* CharacterDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				6D9D04452826CCE1007462A1 /* Character.swift in Sources */,
 				6D9D044E2826D302007462A1 /* CharactersModel.swift in Sources */,
+				6D9D04522827DE8D007462A1 /* CharacterDetailView.swift in Sources */,
 				6D8C5BA7282569FA0035546D /* ContentView.swift in Sources */,
 				6D8C5BA5282569FA0035546D /* HpWikiApp.swift in Sources */,
 			);

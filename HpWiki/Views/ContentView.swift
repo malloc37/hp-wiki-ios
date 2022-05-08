@@ -14,11 +14,16 @@ struct ContentView: View {
         VStack {
             Text("Harry Potter Wiki")
                 .font(.title)
-            List(charsModel.chars) { char in
-                    Text(char.name)
-                            .font(.title2)
+            NavigationView {
+                List(charsModel.chars) { char in
+                    NavigationLink(destination: CharacterDetailView(char: char)) {
+                      Text(char.name)
+                    }
+                }
             }
+
         }
+        
     }
 }
 
