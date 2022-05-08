@@ -12,8 +12,9 @@ struct CharacterDetailView: View {
 
   var body: some View {
       VStack {
-      /*RecipeImage(imageURL: recipe.imageURL)
-        .padding([.leading, .trailing])*/
+      CharImage(imageURL: char.image)
+        .padding([.leading, .trailing])
+          
         Text(char.name)
             .font(.largeTitle)
         Divider()

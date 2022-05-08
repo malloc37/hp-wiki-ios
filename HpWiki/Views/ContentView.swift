@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Harry Potter Wiki")
+            Text("HP Wiki")
                 .font(.title)
             NavigationView {
                 List(charsModel.chars) { char in
